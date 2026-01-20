@@ -27,9 +27,11 @@
     </header>
     <section class="h-[760px] bg-[url('/assets/hero-bg.png')] bg-cover bg-center">
         <div class="pt-[100px]">
-            <div class="mx-auto border w-[334px] h-[334px] relative">
+            <div class="mx-auto w-[334px] h-[334px] relative">
                 <div class="text-[18px] font-semibold text-black absolute py-[8px] px-[16px] bg-[#00FF88] rounded-[100px] mt-[12px] ml-[252px] shadow-[0px_3px_27px_0px_rgba(0,255,136,0.5)] "><p>NEW</p></div>
-                <img src="/assets/hero-circle.png" alt="circle"></div>
+                <img src="./assets/microphone.png" alt="" class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4">
+                <img src="./assets/hero-circle.png" alt="circle">                
+            </div>
         </div>
         <div class="text-center">
             <h1 class="pt-[40px]">TechWave</h1>
@@ -67,11 +69,11 @@ and share stories of personal growth from industry leaders.</p>
             </div>
         </div>
     </section>
-    <section class="lg:w-[1200px] m-auto lg:mb-[120px] sm: mb-[40px] sm: w-[400px]">
+    <section class="lg:w-[1200px] lg:m-auto sm: text-center ml-[120px] lg:mb-[120px] sm: mb-[40px] sm: w-[400px] text-left">
         <div class="lg:text-[48px] lg:mb-[40px] sm: mb-[16px] sm: text-[32px]">
             <h2 class="text-center font-bold">Why Choose TechWave</h2>
         </div>
-        <div class="lg:grid lg:grid-cols-3 lg:grid-rows-3 lg:gap-[30px]">
+        <div class="lg:grid lg:grid-cols-3 lg:grid-rows-3 lg:gap-[30px] m-auto">
             <div class="lg:row-span-2 lg:px-[40px] lg:py-[107px] sm: p-[24px] bg-[rgba(53,17,101,0.4)] rounded-[40px] sm: mb-[16px]">
                 <img src="./assets/headphone.png" alt="headphone">
                 <h3 class="pt-[16px]">Premium Audio Quality</h3>
@@ -99,7 +101,7 @@ and share stories of personal growth from industry leaders.</p>
             </div>
         </div>
     </section>
-    <section class="lg:w-[1200px] sm: my-[40px] sm: mx-auto lg:my-[120px] sm: w-[400px]">
+    <section class="lg:w-[1200px] mx-auto sm: my-[40px] lg:my-[120px]"">
         <div class="lg:text-[48px] lg:mb-[40px] sm: mb-[16px] sm: text-[32px]">
             <h2 class="text-center font-bold lg:mb-[40px] sm: mb-[24px]">Featured Episodes</h2>
         </div>
@@ -134,5 +136,59 @@ and share stories of personal growth from industry leaders.</p>
             </div>
         </div>
     </section>
+    <section class="sm: my-[40px] lg:my-[120px]">
+        <div class="lg:text-[48px] lg:mb-[40px] sm: mb-[16px] sm: text-[32px]">
+            <h2 class="text-center font-bold lg:mb-[40px] sm: mb-[24px]">Meet the Host</h2>
+        </div>
+        <div class="bg-slate-500 lg:rounded-[40px] sm: rounded-[24px] sm: p-[24pxl gap-[40px] lg:flex sm: text-center lg:text-left sm: mx-auto lg:w-[1200px] sm: w-[400px]">
+            <div>
+                <img src="./assets/host.png" alt="Person who hosting" class="pt-[24px] px-[100px]">
+            </div>
+            <div>
+                <div>
+                    <h3 class="lg:text-[24px] sm: text-[20px] font-bold">Alex Kumar</h3>
+                    <p class="py-[12px] text-[16px]">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
+                </div>
+                <div class="flex sm:items-center sm:justify-center gap-[8px]">
+                    <div class="border p-[10px] rounded-4xl">
+                        <img src="./assets/linkedin.png" alt="" class="w-[16px] h-[16px]">
+                    </div>
+                    <div class="border p-[10px] rounded-4xl">
+                        <img src="./assets/x.png" alt="" class="w-[16px] h-[16px]">
+                    </div>
+                    <div class="border p-[10px] rounded-4xl">
+                        <img src="./assets/instagram.png" alt="" class="w-[16px] h-[16px]">
+                    </div>
+                    <div class="border p-[10px] rounded-4xl">
+                        <img src="./assets/youtube.png" alt="" class="w-[16px] h-[16px]">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="lg:max-w-[1600px] lg:h-[420px] sm: max-w-[440px] sm: h-[248px] text-center">
+        <div class="lg:text-[80px] sm: text-[50px] font-bold">
+            <h1>Tech<span class="bg-clip-text text-transparent bg-[linear-gradient(48deg,#F7E93F,#FB09B4,#9100F8)]">Wave</span></h1>
+        </div>
+        <div class="flex justify-center items-center py-[32px] text-[16px]">
+            <ul class="flex pl-[10px]">
+                <li class="flex gap-[8px] justify-center items-center ">
+                    <img src="./assets/spotify.png" alt="spotify icon">Spotify
+                </li>
+                <li class="flex gap-[8px] justify-center items-center pl-[40px]">
+                    <img src="./assets/apple-podcast.png" alt="apple podcast icon">Apple Podcasts
+                </li>
+                <li class="flex gap-[8px] justify-center items-center pl-[40px]">
+                    <img src="./assets/youtube-podcast.png" alt="youtube icon">YouTube
+                </li>
+                <li class="flex gap-[8px] justify-center items-center pl-[40px]">
+                    <img src="./assets/twitter.png" alt="Twitter icon">Twitter
+                </li>
+            </ul>
+        </div>
+        <div>
+            <p>© 2026 TechWave Podcast. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
